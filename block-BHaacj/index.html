@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 2 | form </title>
+        <script src="https://kit.fontawesome.com/379acff5c7.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./assets/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container flex">
+                <div class="logo flex">
+                    <a href="#" class="flex">
+                        <img src="./assets/logo.png" alt="logo.png">
+                        <h1 class="heading primary-heading">JOUNEY</h1>
+                    </a>
+                </div>
+                <nav class="nav flex justify-start">
+                    <ul class="links flex">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Top Destinations</a></li>
+                        <li><a href="#">Recommended Places</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-content flex">
+                        <h1 class="heading hero-heading">LET'S BEGIN</h1>
+                        <span class="small-circle"></span>
+                        <span class="big-circle"></span>
+                        <span class="small-circle"></span>
+                        <h3 class="heading secondary-heading">We assist you to choose the best</h3>
+                        <span class="bg-circle"><i class="fas fa-angle-down"></i></span>
+                    </div>
+                    <form action="" class="form ">
+                        <fieldset class="flex">
+                            <div class="form-left flex">
+                                <label for="destination">Choose Your Destination</label>
+                                <input type="text" class="control-form" placeholder="Type your destination" name="username" id="destination">
+                                <div class="flex row-2">
+                                    <div class="col">
+                                        <label for="in-date">Check In Date</label>
+                                        <input type="text" class="control-form" id="in-date" placeholder="Check In">
+                                    </div>
+                                    <div class="col">
+                                        <label for="in-date">Check Out Date</label>
+                                        <input type="text" class="control-form"  id="in-date" placeholder="Check Out">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-right flex">
+                                <div class="flex">
+                                    <div class="col-right room">
+                                        <label for="room">How many rooms?</label>
+                                        <input type="number" placeholder="1 Room" id="room" class="control-form">
+                                    </div>
+                                    <div class="col-right age">
+                                        <label for="room">Adult</label>
+                                        <input type="number" placeholder="1" id="room" class="control-form">
+                                    </div>
+                                    <div class="col-right age">
+                                        <label for="room"> Children</label>
+                                        <input type="number" placeholder="0" id="room" class="control-form">
+                                    </div>
+                                </div>
+                                <div class="col-btn">
+                                    <input type="submit" value="CHECK AVAILABILITY" class="control-form">
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+            <section class="priority">
+                <div class="container">
+                    <div class="priorty-content">
+                        <h1 class="heading">YOUR <span class="primary-heading">JOURNEY</span> IS OUR PRIORITY</h1>
+                        <P class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam officiis obcaecati iure omnis amet asperiores, corporis incidunt minima doloribus tempora.obcaecati iure omnis amet asperiores, corporis </P>
+                        <a href="#" class="btn btn-primary">CONTINUE EXPLORE</a>
+                    </div>
+                </div>
+            </section>
+            <section class="blog">
+                <div class="container">
+                    <article class="flex europ">
+                        <div class="blog-col image">
+                            <img class="img" src="./assets/tm-img-01.jpg" alt="Europe">
+                        </div>
+                        <div class="blog-col">
+                            <div class="blog-right-box flex">
+                                <div class="icon"><i class="fas fa-angle-left"></i></div>
+                                <div class="icon"><i class="fas fa-angle-right"></i></div>
+                                <div class="blog-content">
+                                    <h1 class="heading blog-heading">Europe's most visited places</h1>
+                                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat tenetur voluptas illo est explicabo! Quam odio at animi aliquid et architecto corrupti inventore deleniti libero, sit placeat minima amet ad!</p>
+                                    <a href="#" class="btn btn-primary">CONTINUE READ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="flex asia">
+                        <div class="blog-col relative">
+                            <div class="blog-right-box flex absolute">
+                                <div class="blog-content">
+                                    <h1 class="heading blog-heading">Europe's most visited places</h1>
+                                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat tenetur voluptas illo est explicabo! Quam odio at animi aliquid et architecto corrupti inventore deleniti libero, sit placeat minima amet ad!</p>
+                                    <a href="#" class="btn btn-primary">CONTINUE READ</a>
+                                </div>
+                                <div class="icon"><i class="fas fa-angle-left"></i></div>
+                                <div class="icon"><i class="fas fa-angle-right"></i></div>
+                            </div>
+                        </div>
+                        <div class="blog-col image">
+                            <img class="img" src="./assets/tm-img-02.jpg" alt="Europe">
+                        </div>
+                    </article>
+                    <article class="flex europ">
+                        <div class="blog-col image">
+                            <img class="img" src="./assets/tm-img-01.jpg" alt="Europe">
+                        </div>
+                        <div class="blog-col">
+                            <div class="blog-right-box flex">
+                                <div class="icon"><i class="fas fa-angle-left"></i></div>
+                                <div class="icon"><i class="fas fa-angle-right"></i></div>
+                                <div class="blog-content">
+                                    <h1 class="heading blog-heading">Europe's most visited places</h1>
+                                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat tenetur voluptas illo est explicabo! Quam odio at animi aliquid et architecto corrupti inventore deleniti libero, sit placeat minima amet ad!</p>
+                                    <a href="#" class="btn btn-primary">CONTINUE READ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
